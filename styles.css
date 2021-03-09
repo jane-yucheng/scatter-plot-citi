@@ -1,0 +1,55 @@
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: rgb(243, 239, 22);
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+  }
+
+  .bar {
+    fill: steelblue;
+    Stroke: black;
+    Stroke-width: 2
+}
+
+.bar:hover {
+  fill: red;
+  Stroke: black;
+  Stroke-width: 2
+}
+
+  .circle{
+    fill:steelblue;
+    Stroke: black;
+    Stroke-width: 2
+  }
+
+  .circle.selected{
+    fill:red;
+    Stroke: black;
+    Stroke-width: 2
+  }
+
+  /* .circle.over{
+    fill:red;
+    Stroke: black;
+    Stroke-width: 2
+  } */
+
+  circle.highlight{
+    fill:red;
+    
+}
+
+  rect.highlight{
+  fill:red;
+}
+
+  rect.background{
+    fill: #fce703;
+  }
